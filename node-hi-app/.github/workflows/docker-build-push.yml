@@ -1,11 +1,6 @@
 name: docker build and push
 
-on: 
-  workflow_dispatch:
-  push:
-    branches:
-      - main
-      - 'poc'
+on: push
     
 jobs:
     unit-testing:
